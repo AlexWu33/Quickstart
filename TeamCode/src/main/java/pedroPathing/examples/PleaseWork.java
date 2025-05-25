@@ -33,9 +33,9 @@ public class PleaseWork extends OpMode {
     /** Highest (First) Sample from the Spike Mark */
     private final Pose P1P = new Pose(65, 27, Math.toRadians(180));
 
-    private final Pose C1P1P = new Pose(39, 50, Math.toRadians(180));
-    private final Pose C2P1P = new Pose(25, 15, Math.toRadians(180));
-    private final Pose C3P1P = new Pose(62, 38, Math.toRadians(180));
+    private final Pose C1P1P = new Pose(34, 17, Math.toRadians(180));
+    private final Pose C2P1P = new Pose(30, 40, Math.toRadians(180));
+    private final Pose C3P1P = new Pose(65, 37, Math.toRadians(180));
 
     private final Pose P1PR = new Pose(12, 25, Math.toRadians(180));
 
@@ -57,9 +57,9 @@ public class PleaseWork extends OpMode {
     private final Pose SCP = new Pose(30, 69, Math.toRadians(180));
 
     /** Human Player */
-    private final Pose HP = new Pose(8, 32, Math.toRadians(180));
+    private final Pose HP = new Pose(12, 32, Math.toRadians(180));
 
-    private final Pose CHP = new Pose(38, 69, Math.toRadians(180));
+    private final Pose CHP = new Pose(34, 73, Math.toRadians(180));
 
     /* These are our Paths and PathChains that we will define in buildPaths() */
     private Path scorePreload;
